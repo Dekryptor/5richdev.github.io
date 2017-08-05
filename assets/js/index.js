@@ -167,7 +167,7 @@ document.findword = function(info, callback) {
 
 
 var url_attributes = window.location.search.replace('?', '').split('&')
-var domain_name = window.location.hostname.replace('localhost', 'KAYANBU').replace('.com', '').replace('www.', '').replace('.github.io', '').toUpperCase()
+var domain_name = window.location.hostname.replace('localhost', '5richdev').replace('.com', '').replace('www.', '').replace('.github.io', '').toUpperCase()
 $('#pagename').text(domain_name)
 document.title = domain_name;
 document.request = {}
